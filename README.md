@@ -14,7 +14,6 @@ This repository comes with
 
 - **g12** window manager
 - **g12** based application handler
-- **g12** applets
 - example **g12** projects
 
 If you are looking for more hardware-friendly versions, we have the [gX window system](https://github.com/thekaigonzalez/gX),
