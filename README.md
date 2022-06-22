@@ -18,4 +18,4 @@ This repository comes with
 - example **g12** projects
 
 If you are looking for more hardware-friendly versions, we have the [gX window system](https://github.com/thekaigonzalez/gX),
-and if you really want it, you could try and extract the older **g11** window manager from the [magicOS](https://github.com/thekaigonzalez/g11) repository.
+and if you really want it, you could try and extract the older **g11** window manager from the [magicOS](https://github.com/thekaigonzalez/magicOS) repository.
