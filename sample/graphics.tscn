@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://g12/win/window.tscn" type="PackedScene" id=1]
+[ext_resource path="res://sample/bg/milad-fakurian-E8Ufcyxz514-unsplash.jpg" type="Texture" id=2]
+[ext_resource path="res://sample/graphics.gd" type="Script" id=3]
+[ext_resource path="res://g12/shaders/BLUR_LOADER.tres" type="Material" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="Milad-fakurian-E8Ufcyxz514-unsplash" type="Sprite" parent="."]
+position = Vector2( 640, 360 )
+scale = Vector2( 0.3125, 0.231362 )
+texture = ExtResource( 2 )
+
+[node name="Bottom Bar" type="Panel" parent="."]
+material = ExtResource( 4 )
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 8.0
+margin_top = -302.0
+margin_right = 116.0
+margin_bottom = 302.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Bottom Bar"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -20.0
+margin_top = 8.0
+margin_right = 20.0
+margin_bottom = 22.0
+text = "0:12"
+align = 1
+
+[node name="gpu" parent="." instance=ExtResource( 1 )]
+margin_left = -99.0
+margin_top = -274.0
+margin_right = 247.0
+margin_bottom = 6.0
+
+[node name="gpu2" parent="." instance=ExtResource( 1 )]
+margin_left = 216.0
+margin_top = 38.0
+margin_right = 562.0
+margin_bottom = 318.0
+
+[node name="gpu3" parent="." instance=ExtResource( 1 )]
+margin_left = -482.0
+margin_top = -85.0
+margin_right = -136.0
+margin_bottom = 195.0
