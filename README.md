@@ -4,7 +4,8 @@ The second generation of the **GWM**. (G Window Manager)
 
 This version is much more GPU-intensive therefore it requires a much better hardware than **g11**. But this version
 of the G Window System is much prettier, and much more isolated, **g11** was exclusive for the magicOS project. 
-You can use **g12** in any project you'd like, without the need for extraction.
+You can use **g12** in any project you'd like, if you would like to use g11, there is an official port from the magicOS
+provided version, [here.](https://github.com/thekaigonzalez/g11)
 
 ![1](./min.png)
 
